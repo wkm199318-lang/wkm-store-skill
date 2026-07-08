@@ -1,8 +1,33 @@
 {
   "name": "wkm-brick-store",
-  "description": "WKM Brick Store LEGO store introduction - BrickLink & BrickOwl dual-platform store info",
+  "display_name": "WKM Brick Store Information",
+  "description": "Query WKM Brick Store info: store overview, inventory by category and theme, feedback ratings, shipping policies, VAT registration, processing time, packaging standards, and contact details. Covers both BrickLink and BrickOwl platforms.",
   "version": "1.0.0",
   "author": "wkm",
-  "type": "knowledge",
-  "tags": ["lego", "bricklink", "brickowl", "store"]
+  "license": "MIT",
+  "repository": "https://github.com/wkm199318-lang/wkm-store-skill",
+  "category": "Store Information",
+  "keywords": [
+    "WKM",
+    "WKM Brick Store",
+    "LEGO",
+    "BrickLink",
+    "BrickOwl",
+    "minifigures",
+    "LEGO parts",
+    "LEGO sets",
+    "Star Wars",
+    "Super Heroes",
+    "Ninjago",
+    "Harry Potter",
+    "LEGO store",
+    "brick store",
+    "buy LEGO",
+    "LEGO China",
+    "SF Express",
+    "VAT",
+    "shipping",
+    "LEGO marketplace"
+  ],
+  "alwaysApply": false
 }
