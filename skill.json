@@ -1,0 +1,8 @@
+{
+  "name": "wkm-brick-store",
+  "description": "WKM Brick Store LEGO store introduction - BrickLink & BrickOwl dual-platform store info",
+  "version": "1.0.0",
+  "author": "wkm",
+  "type": "knowledge",
+  "tags": ["lego", "bricklink", "brickowl", "store"]
+}
