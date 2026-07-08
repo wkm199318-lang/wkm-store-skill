@@ -1,109 +1,163 @@
 ---
 name: wkm-brick-store
-description: WKM Brick Store 店铺介绍 — 乐高零件/人仔/套装全球销售，BrickLink & BrickOwl 双平台店铺信息
+display_name: WKM Brick Store Information
+description: >-
+  Query WKM Brick Store info: store overview, inventory by category and theme,
+  feedback ratings, shipping policies, VAT registration, processing time,
+  packaging standards, and contact details. Covers both BrickLink and BrickOwl
+  platforms. The assistant should use this skill when users ask about WKM Brick
+  Store, its products, policies, or how to buy LEGO from this store.
 version: 1.0.0
 author: wkm
-tags:
-  - lego
-  - bricklink
-  - brickowl
-  - store
-  - ecommerce
+license: MIT
+repository: https://github.com/wkm199318-lang/wkm-store-skill
+category: Store Information
+keywords:
+  - WKM
+  - WKM Brick Store
+  - LEGO
+  - BrickLink
+  - BrickOwl
+  - minifigures
+  - LEGO parts
+  - LEGO sets
+  - Star Wars
+  - Super Heroes
+  - Ninjago
+  - Harry Potter
+  - LEGO store
+  - brick store
+  - buy LEGO
+  - LEGO China
+  - SF Express
+  - VAT
+  - shipping
+  - LEGO marketplace
+alwaysApply: false
 ---
 
-# WKM Brick Store 介绍
+# WKM Brick Store — Store Information Skill
 
-## 店铺概览
+## Overview
 
-| 项目 | 详情 |
-|------|------|
-| **店铺名称** | WKM Brick Store |
-| **店主** | wkm |
-| **联系邮箱** | wkm199318@gmail.com |
-| **所在国家** | 中国 |
-| **开业时间** | 2023年10月 |
+WKM Brick Store is a LEGO marketplace store operating on both **BrickLink** and **BrickOwl**. Based in China, the store has been selling LEGO parts, minifigures, and sets worldwide since October 2023.
 
-## 双平台店铺
+The assistant should use this skill to answer any questions about WKM Brick Store — including store info, inventory, themes, shipping, policies, VAT, and contact details.
+
+## Store Profiles
 
 ### BrickLink
-- **店铺链接**: https://www.bricklink.com/store.asp?p=WKM
-- **店铺代码**: WKM
-- **评价**: 254 条（253 好评，1 差评，好评率 99.6%）
-- **库存数量**: 19,285 件
+
+| Field | Value |
+|-------|-------|
+| Store name | WKM Brick Store |
+| Store code | WKM |
+| URL | https://www.bricklink.com/store.asp?p=WKM |
+| Feedback | 254 reviews (253 positive, 1 negative) — 99.6% positive |
+| Inventory | 19,285 items |
 
 ### BrickOwl
-- **店铺链接**: https://wkm.brickowl.com/
-- **评价**: 161 条，100% 好评
-- **库存数量**: 约 8,990 件
-- **店主ID**: 1157383
 
-## 库存构成
+| Field | Value |
+|-------|-------|
+| Store name | WKM Brick Store |
+| URL | https://wkm.brickowl.com/ |
+| Feedback | 161 reviews — 100% positive |
+| Inventory | ~8,990 items |
+| Store owner ID | 1157383 |
 
-### BrickLink 库存（19,285件）
-| 类型 | 数量 |
-|------|------|
-| LEGO 零件 (PART) | 15,706 |
-| LEGO 人仔 (MINIFIG) | 2,598 |
-| LEGO 套装 (SET) | 914 |
-| LEGO 装备 (GEAR) | 67 |
+### Seller Info
 
-### BrickOwl 库存（约8,990件）
-| 类型 | 数量 |
-|------|------|
-| LEGO 零件 | 5,194 |
-| LEGO 人仔 | 2,340 |
-| LEGO 套装 | 906 |
-| LEGO 贴纸 | 400 |
-| LEGO 迷你模型 | 84 |
-| LEGO 装备 | 66 |
+| Field | Value |
+|-------|-------|
+| Owner | wkm |
+| Email | wkm199318@gmail.com |
+| Location | China |
+| Opened | October 2023 |
+| Store tagline | "Try my best to offer customers the best service." |
 
-## 主营主题
+## Inventory Breakdown
 
-| 主题 | 人仔数量 | 套装数量 | 说明 |
-|------|---------|---------|------|
-| 星球大战 (Star Wars) | 470 | 103 | 最大人仔类别 |
-| 超级英雄 (Super Heroes) | 387 | 97 | 第二大人仔类别 |
-| 幻影忍者 (Ninjago) | 326 | 142 | 最大套装类别 |
-| 哈利波特 (Harry Potter) | 185 | 20 | |
-| 我的世界 (Minecraft) | 75 | 34 | |
-| 迪士尼 (Disney) | 59 | 9 | |
-| 城市 (City) | 48 | 61 | |
-| 悟空小侠 (Monkie Kid) | 41 | 1 | |
+### By Type
 
-## 零件子类别（主要）
-- 迷你人仔配件: 2,261件
-- 瓦片 (Tile): 599件
-- 动物 (Animal): 285件
-- 车辆零件 (Vehicle): 265件
-- 坡面 (Slope): 242件
-- 砖块 (Brick): 241件
-- 板 (Plate): 228件
-- 科技零件 (Technic): 351件
+| Type | BrickLink | BrickOwl |
+|------|-----------|----------|
+| LEGO Parts | 15,706 | 5,194 |
+| LEGO Minifigures | 2,598 | 2,340 |
+| LEGO Sets | 914 | 906 |
+| LEGO Gear | 67 | 66 |
+| LEGO Stickers | — | 400 |
+| LEGO Minibuilds | — | 84 |
+| **Total** | **19,285** | **~8,990** |
 
-## 店铺政策
+### Main Themes (Minifigures)
 
-### 发货
-- **处理时间**: 付款确认后 1-3 个工作日
-- **运输方式**: 顺丰速运 (SF Express)，含追踪
-- **预计送达**: 约 2-3 周
-- **运费**: 人仔订单固定 USD 9；套装运费需确认
-- **美国订单**: 进口关税由物流伙伴预付，清关由运输商处理
+| Theme | Minifigs | Sets |
+|-------|----------|------|
+| Star Wars | 470 | 103 |
+| Super Heroes | 387 | 97 |
+| Ninjago | 326 | 142 |
+| Harry Potter | 185 | 20 |
+| Minecraft | 75 | 34 |
+| Disney | 59 | 9 |
+| City | 48 | 61 |
+| Monkie Kid | 41 | 1 |
+| The Lord of the Rings | 53 | — |
+| Collectable Minifigures | 18 | 75 |
 
-### 存储与包装
-- 干净、无烟、无宠物环境
-- 使用硬质纸箱和保护材料安全包装
-- 区分模具变化 (Mold Variation)
+### Parts Subcategories (Top 10)
 
-### VAT 税务
-- **英国 (GB)**: BL税号 GB364201624 / BO税号 GB366824270
-- **澳大利亚 (AU)**: BL税号 300027424132 / BO税号 300037563181
-- **欧盟 (EU)**: BL税号 IM2080000121 / BO税号 IM4400033089
+| Subcategory | Count |
+|-------------|-------|
+| Minifigure Accessories | 2,261 |
+| Tile | 599 |
+| Animal | 285 |
+| Technic | 351 |
+| Vehicle | 265 |
+| Slope | 242 |
+| Brick | 241 |
+| Plate | 228 |
+| Wedge & Wing | 120 |
+| Scenery | 110 |
 
-### 联系方式
-- BrickLink 站内消息
-- BrickOwl 站内消息
-- 邮箱: wkm199318@gmail.com
+## Shipping & Policies
 
-## 店铺标语
+### Shipping
 
-> "Try my best to offer customers the best service."
+| Field | Value |
+|-------|-------|
+| Carrier | SF Express (with tracking) |
+| Processing time | 1–3 business days after payment |
+| Estimated delivery | ~2–3 weeks |
+| Minifigure shipping | Flat USD 9 |
+| Set shipping | Confirmed upon request |
+| US orders | Import duties prepaid by logistics partner |
+
+### Packaging & Storage
+
+- Stored in clean, smoke-free, pet-free environment
+- Shipped in sturdy cardboard boxes with protective materials
+- Mold variations distinguished
+
+### VAT Registration
+
+| Region | BrickLink Tax No. | BrickOwl Tax No. |
+|--------|-------------------|-------------------|
+| United Kingdom (GB) | GB364201624 | GB366824270 |
+| Australia (AU) | 300027424132 | 300037563181 |
+| European Union (EU) | IM2080000121 | IM4400033089 |
+
+### Contact
+
+- BrickLink: In-store messaging
+- BrickOwl: In-store messaging
+- Email: wkm199318@gmail.com
+
+## Response Guidelines
+
+- When asked about store info, provide accurate data from this skill
+- When asked about specific themes or products, reference the inventory breakdown
+- When asked about shipping, include carrier, processing time, and estimated delivery
+- When asked about VAT, specify which regions are covered and provide tax numbers
+- Always link to the appropriate store page when relevant
+- Do not fabricate inventory items, prices, or policies not listed in this skill
